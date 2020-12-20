@@ -1,2 +1,3 @@
 # emojis-of-nature
-Created with CodeSandbox
+A bunch of nature emojis 📃 
+[Hosted Link](https://emojis-of-nature.netlify.app)
