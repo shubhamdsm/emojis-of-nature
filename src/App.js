@@ -22,6 +22,9 @@ export default function App() {
   function onChangeHandler(event) {
     var userInput = event.target.value;
     var meaning = emojisOfNature[userInput];
+    if (meaning === undefined) {
+      meaning = "sorry not in our database ☹";
+    }
     setMeaning(meaning);
   }
 
